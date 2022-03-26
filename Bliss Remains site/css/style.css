@@ -1,0 +1,70 @@
+.jumbotron {
+  background-image: url("/img/jumbotron01.jpg");
+  min-height: 700px;
+  padding: 50px;
+  color: #e91b1b;
+  font-family: "More is less 22";
+  word-wrap: break-word;
+}
+
+.jumbotron h1 {
+  font-size: 400%;
+}
+
+.jumbotron p {
+  text-decoration: none;
+  color: #e91b1b;
+  font-size: 180%;
+}
+
+.jumbotron a {
+  text-decoration: none;
+  color: #e91b1b;
+}
+
+.h1jumb,
+.pjumb {
+  opacity: 0;
+  transform: translate(0, 50px);
+  transition: 1.5s;
+}
+
+button {
+  background-color: black;
+  color: #e91b1b;
+  width: 200px;
+  border-color: #e91b1b;
+  border-radius: 30px;
+  cursor: default;
+}
+
+button.active {
+  background-color: #e91b1b;
+  color: black;
+  
+}
+
+.h1jumb.muncul,
+.pjumb.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+h2,
+h5,
+button {
+  opacity: 0;
+  transform: translate(0, -30px);
+  transition: 1.5s;
+}
+
+h2.muncull,
+h5.muncull,
+button.muncull {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+footer {
+  padding-top: 20px;
+}
